@@ -1,0 +1,8 @@
+#card {
+    position: absolute;
+    top: 100px;  
+    left: 52%;  
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,36 @@
+.favorites-list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.favorites-list li {
+    cursor: pointer;
+    padding: 8px;
+    list-style-type: none;
+    background-color: white;
+}
+
+.favorites-list li:hover {
+    background-color: grey;
+}
+
+.favorites-list-item {
+    cursor: pointer;
+    padding: 8px;
+    background-color: white;
+}
+
+.favorites-list-item:hover {
+    background-color: grey;
+}
+
+
+#favoritesContainer {
+    position: fixed;
+    bottom: 0;
+    left: 48%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Viewer</title>
+    <link rel="stylesheet" href="styles/global.css"> 
+    <link rel="stylesheet" href="styles/weather.css">
+    <link rel="stylesheet" href="styles/city.css">
+    <link rel="stylesheet" href="styles/spinner.css">
+    <link rel="stylesheet" href="styles/city_image.css">
+    <link rel="stylesheet" href="styles/favorites_list.css">
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+    <div id="root">
+        <div class="search-container">
+            <div id="card"></div>
+            <button id="heartButton"></button>
+            <input type="text" id="cityInput" placeholder="Enter city name"> 
+            <button id="searchButton">Search</button>
+            <div id="favoritesContainer"></div>
+        </div>
+        <div hidden id="spinner"></div>
+    </div>
+
+</body>
+</html>

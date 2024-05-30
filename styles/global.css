@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/proiect-3-html-css-js-Dragos72/assets/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#cityInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+#searchButton {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+#heartButton {
+    width: 30px; 
+    height: 30px;
+    background: url('/proiect-3-html-css-js-Dragos72/assets/Heart.png') no-repeat center center; 
+    background-size: contain; 
+    border: none;
+    cursor: pointer;
+}
