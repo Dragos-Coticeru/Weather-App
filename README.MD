@@ -1,6 +1,6 @@
 # Weather viewer application
 
-The website is using a Wheather API in order to receive information about the incoming wheather.
+The website is using a Weather API in order to receive information about the incoming wheather.
 
 In order to use the site, enter a city name and press search. The wheather forecast for the next 5 days will appear, alongside a picture of the city selected.
 
